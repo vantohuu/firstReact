@@ -1,0 +1,43 @@
+.form
+{
+    height: 450px;
+    width: 300px;
+    border-color: #e7f0f0d7;
+    border-width: 10px;
+    border-style: double;
+    background-color: rgba(231, 240, 248, 0.747);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+.formInput input
+{
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;  
+    outline-color: rgb(55, 165, 255);
+    outline-width: 2px;
+    border-color: rgb(189, 189, 189);
+    border-width: 2px;
+    border-style: solid;
+    font-size: 12px;
+    padding: 5px;
+    background-color: rgba(200, 228, 252, 0.87);
+}
+.form > h1
+{
+    color: rgb(9, 94, 192);
+}
+.form > input
+{
+    width: 150px;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(9, 94, 192);
+}
+
